@@ -15,6 +15,20 @@
 		A396E27D1D11217600FCD03D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A396E27B1D11217600FCD03D /* LaunchScreen.storyboard */; };
 		A396E2881D11217600FCD03D /* ElevenBaseFrameWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2871D11217600FCD03D /* ElevenBaseFrameWorkTests.m */; };
 		A396E2931D11217600FCD03D /* ElevenBaseFrameWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2921D11217600FCD03D /* ElevenBaseFrameWorkUITests.m */; };
+		A396E2AE1D11410C00FCD03D /* NSString+AutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2AD1D11410C00FCD03D /* NSString+AutoSize.m */; };
+		A396E2B11D1141DD00FCD03D /* UIColor+TranslateColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2B01D1141DD00FCD03D /* UIColor+TranslateColor.m */; };
+		A396E2B41D11439700FCD03D /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2B31D11439700FCD03D /* UIImage+GIF.m */; };
+		A396E2B81D11466C00FCD03D /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = A396E2B71D11466C00FCD03D /* loading.gif */; };
+		A396E2BE1D11486900FCD03D /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2BD1D11486900FCD03D /* UIView+Toast.m */; };
+		A396E2C41D11595A00FCD03D /* UIImage+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2C31D11595A00FCD03D /* UIImage+Size.m */; };
+		A396E2C71D124E5D00FCD03D /* ElevenAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2C61D124E5D00FCD03D /* ElevenAppContext.m */; };
+		A396E2CA1D125A1A00FCD03D /* UIDevice+Identifer.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2C91D125A1A00FCD03D /* UIDevice+Identifer.m */; };
+		A396E2CD1D125A5700FCD03D /* NSString+SFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2CC1D125A5700FCD03D /* NSString+SFNetworking.m */; };
+		A396E2D11D12767900FCD03D /* NSArray+ELNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2D01D12767900FCD03D /* NSArray+ELNetworkingMethods.m */; };
+		A396E2D41D12769800FCD03D /* NSDictionary+ELNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2D31D12769800FCD03D /* NSDictionary+ELNetworkingMethods.m */; };
+		A396E2D71D1278E800FCD03D /* ElevenAPIProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2D61D1278E800FCD03D /* ElevenAPIProxy.m */; };
+		A396E2DA1D1295F600FCD03D /* UIBarButtonItem+ELBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2D91D1295F600FCD03D /* UIBarButtonItem+ELBarButtonItem.m */; };
+		AA1FCE3BB57EEBA800314BEC /* Pods_ElevenBaseFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433D529BBF2222B5B457D695 /* Pods_ElevenBaseFrameWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13514061A2E057168988D887 /* Pods-ElevenBaseFrameWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevenBaseFrameWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElevenBaseFrameWork/Pods-ElevenBaseFrameWork.release.xcconfig"; sourceTree = "<group>"; };
+		433D529BBF2222B5B457D695 /* Pods_ElevenBaseFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElevenBaseFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		774DB7E22D9C37D073F96BC5 /* Pods-ElevenBaseFrameWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevenBaseFrameWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElevenBaseFrameWork/Pods-ElevenBaseFrameWork.debug.xcconfig"; sourceTree = "<group>"; };
 		A396E26A1D11217600FCD03D /* ElevenBaseFrameWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElevenBaseFrameWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A396E26E1D11217600FCD03D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A396E2701D11217600FCD03D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +68,33 @@
 		A396E28E1D11217600FCD03D /* ElevenBaseFrameWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElevenBaseFrameWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A396E2921D11217600FCD03D /* ElevenBaseFrameWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElevenBaseFrameWorkUITests.m; sourceTree = "<group>"; };
 		A396E2941D11217600FCD03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A396E2AC1D11410C00FCD03D /* NSString+AutoSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AutoSize.h"; sourceTree = "<group>"; };
+		A396E2AD1D11410C00FCD03D /* NSString+AutoSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AutoSize.m"; sourceTree = "<group>"; };
+		A396E2AF1D1141DD00FCD03D /* UIColor+TranslateColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TranslateColor.h"; sourceTree = "<group>"; };
+		A396E2B01D1141DD00FCD03D /* UIColor+TranslateColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TranslateColor.m"; sourceTree = "<group>"; };
+		A396E2B21D11439700FCD03D /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		A396E2B31D11439700FCD03D /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		A396E2B71D11466C00FCD03D /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		A396E2BC1D11486900FCD03D /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		A396E2BD1D11486900FCD03D /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		A396E2C11D11555E00FCD03D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A396E2C21D11595A00FCD03D /* UIImage+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Size.h"; sourceTree = "<group>"; };
+		A396E2C31D11595A00FCD03D /* UIImage+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Size.m"; sourceTree = "<group>"; };
+		A396E2C51D124E5D00FCD03D /* ElevenAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElevenAppContext.h; sourceTree = "<group>"; };
+		A396E2C61D124E5D00FCD03D /* ElevenAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElevenAppContext.m; sourceTree = "<group>"; };
+		A396E2C81D125A1A00FCD03D /* UIDevice+Identifer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Identifer.h"; sourceTree = "<group>"; };
+		A396E2C91D125A1A00FCD03D /* UIDevice+Identifer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Identifer.m"; sourceTree = "<group>"; };
+		A396E2CB1D125A5700FCD03D /* NSString+SFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SFNetworking.h"; sourceTree = "<group>"; };
+		A396E2CC1D125A5700FCD03D /* NSString+SFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SFNetworking.m"; sourceTree = "<group>"; };
+		A396E2CE1D125BCE00FCD03D /* ElevenNetworkConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElevenNetworkConfiguration.h; sourceTree = "<group>"; };
+		A396E2CF1D12767900FCD03D /* NSArray+ELNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ELNetworkingMethods.h"; sourceTree = "<group>"; };
+		A396E2D01D12767900FCD03D /* NSArray+ELNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ELNetworkingMethods.m"; sourceTree = "<group>"; };
+		A396E2D21D12769800FCD03D /* NSDictionary+ELNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ELNetworkingMethods.h"; sourceTree = "<group>"; };
+		A396E2D31D12769800FCD03D /* NSDictionary+ELNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ELNetworkingMethods.m"; sourceTree = "<group>"; };
+		A396E2D51D1278E800FCD03D /* ElevenAPIProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElevenAPIProxy.h; sourceTree = "<group>"; };
+		A396E2D61D1278E800FCD03D /* ElevenAPIProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElevenAPIProxy.m; sourceTree = "<group>"; };
+		A396E2D81D1295F600FCD03D /* UIBarButtonItem+ELBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ELBarButtonItem.h"; sourceTree = "<group>"; };
+		A396E2D91D1295F600FCD03D /* UIBarButtonItem+ELBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ELBarButtonItem.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1FCE3BB57EEBA800314BEC /* Pods_ElevenBaseFrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +123,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		797555D09532E7DD87EC37D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				774DB7E22D9C37D073F96BC5 /* Pods-ElevenBaseFrameWork.debug.xcconfig */,
+				13514061A2E057168988D887 /* Pods-ElevenBaseFrameWork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A396E2611D11217600FCD03D = {
 			isa = PBXGroup;
 			children = (
+				A396E2A01D1138FF00FCD03D /* ADAndGuide */,
+				A396E2A11D1138FF00FCD03D /* APIService */,
+				A396E2A21D1138FF00FCD03D /* Category */,
+				A396E2A31D1138FF00FCD03D /* Common */,
+				A396E2A41D1138FF00FCD03D /* DataBase */,
+				A396E2A51D1138FF00FCD03D /* Extension */,
+				A396E2A61D1138FF00FCD03D /* MainTabbar */,
+				A396E2A71D1138FF00FCD03D /* Resources */,
+				A396E2A81D1138FF00FCD03D /* Section */,
+				A396E2A91D1138FF00FCD03D /* Tools */,
+				A396E2AA1D1138FF00FCD03D /* UserInfo */,
+				A396E2AB1D1138FF00FCD03D /* Vender */,
 				A396E26C1D11217600FCD03D /* ElevenBaseFrameWork */,
 				A396E2861D11217600FCD03D /* ElevenBaseFrameWorkTests */,
 				A396E2911D11217600FCD03D /* ElevenBaseFrameWorkUITests */,
 				A396E26B1D11217600FCD03D /* Products */,
+				797555D09532E7DD87EC37D6 /* Pods */,
+				C79F259E7DA7363AE40E32AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				A396E26E1D11217600FCD03D /* main.m */,
+				A396E2C11D11555E00FCD03D /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +209,136 @@
 			path = ElevenBaseFrameWorkUITests;
 			sourceTree = "<group>";
 		};
+		A396E2A01D1138FF00FCD03D /* ADAndGuide */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ADAndGuide;
+			path = ElevenBaseFrameWork/ADAndGuide;
+			sourceTree = "<group>";
+		};
+		A396E2A11D1138FF00FCD03D /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				A396E2CE1D125BCE00FCD03D /* ElevenNetworkConfiguration.h */,
+				A396E2D51D1278E800FCD03D /* ElevenAPIProxy.h */,
+				A396E2D61D1278E800FCD03D /* ElevenAPIProxy.m */,
+			);
+			name = APIService;
+			path = ElevenBaseFrameWork/APIService;
+			sourceTree = "<group>";
+		};
+		A396E2A21D1138FF00FCD03D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A396E2AC1D11410C00FCD03D /* NSString+AutoSize.h */,
+				A396E2AD1D11410C00FCD03D /* NSString+AutoSize.m */,
+				A396E2CF1D12767900FCD03D /* NSArray+ELNetworkingMethods.h */,
+				A396E2D01D12767900FCD03D /* NSArray+ELNetworkingMethods.m */,
+				A396E2D21D12769800FCD03D /* NSDictionary+ELNetworkingMethods.h */,
+				A396E2D31D12769800FCD03D /* NSDictionary+ELNetworkingMethods.m */,
+				A396E2AF1D1141DD00FCD03D /* UIColor+TranslateColor.h */,
+				A396E2B01D1141DD00FCD03D /* UIColor+TranslateColor.m */,
+				A396E2B21D11439700FCD03D /* UIImage+GIF.h */,
+				A396E2B31D11439700FCD03D /* UIImage+GIF.m */,
+				A396E2C21D11595A00FCD03D /* UIImage+Size.h */,
+				A396E2C31D11595A00FCD03D /* UIImage+Size.m */,
+				A396E2D81D1295F600FCD03D /* UIBarButtonItem+ELBarButtonItem.h */,
+				A396E2D91D1295F600FCD03D /* UIBarButtonItem+ELBarButtonItem.m */,
+				A396E2C81D125A1A00FCD03D /* UIDevice+Identifer.h */,
+				A396E2C91D125A1A00FCD03D /* UIDevice+Identifer.m */,
+				A396E2CB1D125A5700FCD03D /* NSString+SFNetworking.h */,
+				A396E2CC1D125A5700FCD03D /* NSString+SFNetworking.m */,
+			);
+			name = Category;
+			path = ElevenBaseFrameWork/Category;
+			sourceTree = "<group>";
+		};
+		A396E2A31D1138FF00FCD03D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A396E2C51D124E5D00FCD03D /* ElevenAppContext.h */,
+				A396E2C61D124E5D00FCD03D /* ElevenAppContext.m */,
+			);
+			name = Common;
+			path = ElevenBaseFrameWork/Common;
+			sourceTree = "<group>";
+		};
+		A396E2A41D1138FF00FCD03D /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataBase;
+			path = ElevenBaseFrameWork/DataBase;
+			sourceTree = "<group>";
+		};
+		A396E2A51D1138FF00FCD03D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extension;
+			path = ElevenBaseFrameWork/Extension;
+			sourceTree = "<group>";
+		};
+		A396E2A61D1138FF00FCD03D /* MainTabbar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MainTabbar;
+			path = ElevenBaseFrameWork/MainTabbar;
+			sourceTree = "<group>";
+		};
+		A396E2A71D1138FF00FCD03D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A396E2B71D11466C00FCD03D /* loading.gif */,
+			);
+			name = Resources;
+			path = ElevenBaseFrameWork/Resources;
+			sourceTree = "<group>";
+		};
+		A396E2A81D1138FF00FCD03D /* Section */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Section;
+			path = ElevenBaseFrameWork/Section;
+			sourceTree = "<group>";
+		};
+		A396E2A91D1138FF00FCD03D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A396E2BC1D11486900FCD03D /* UIView+Toast.h */,
+				A396E2BD1D11486900FCD03D /* UIView+Toast.m */,
+			);
+			name = Tools;
+			path = ElevenBaseFrameWork/Tools;
+			sourceTree = "<group>";
+		};
+		A396E2AA1D1138FF00FCD03D /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UserInfo;
+			path = ElevenBaseFrameWork/UserInfo;
+			sourceTree = "<group>";
+		};
+		A396E2AB1D1138FF00FCD03D /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vender;
+			path = ElevenBaseFrameWork/Vender;
+			sourceTree = "<group>";
+		};
+		C79F259E7DA7363AE40E32AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				433D529BBF2222B5B457D695 /* Pods_ElevenBaseFrameWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +346,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A396E2971D11217700FCD03D /* Build configuration list for PBXNativeTarget "ElevenBaseFrameWork" */;
 			buildPhases = (
+				6583B6CEECC9E293E4FBE5ED /* [CP] Check Pods Manifest.lock */,
 				A396E2661D11217600FCD03D /* Sources */,
 				A396E2671D11217600FCD03D /* Frameworks */,
 				A396E2681D11217600FCD03D /* Resources */,
+				71443F4B8902726CC6539EC2 /* [CP] Embed Pods Frameworks */,
+				60F94284FF992EF182BB795D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A396E27D1D11217600FCD03D /* LaunchScreen.storyboard in Resources */,
+				A396E2B81D11466C00FCD03D /* loading.gif in Resources */,
 				A396E27A1D11217600FCD03D /* Assets.xcassets in Resources */,
 				A396E2781D11217600FCD03D /* Main.storyboard in Resources */,
 			);
@@ -265,13 +468,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		60F94284FF992EF182BB795D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElevenBaseFrameWork/Pods-ElevenBaseFrameWork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6583B6CEECC9E293E4FBE5ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		71443F4B8902726CC6539EC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElevenBaseFrameWork/Pods-ElevenBaseFrameWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A396E2661D11217600FCD03D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A396E2D71D1278E800FCD03D /* ElevenAPIProxy.m in Sources */,
+				A396E2DA1D1295F600FCD03D /* UIBarButtonItem+ELBarButtonItem.m in Sources */,
+				A396E2C41D11595A00FCD03D /* UIImage+Size.m in Sources */,
+				A396E2CD1D125A5700FCD03D /* NSString+SFNetworking.m in Sources */,
+				A396E2B41D11439700FCD03D /* UIImage+GIF.m in Sources */,
+				A396E2D41D12769800FCD03D /* NSDictionary+ELNetworkingMethods.m in Sources */,
+				A396E2B11D1141DD00FCD03D /* UIColor+TranslateColor.m in Sources */,
+				A396E2C71D124E5D00FCD03D /* ElevenAppContext.m in Sources */,
 				A396E2751D11217600FCD03D /* ViewController.m in Sources */,
+				A396E2AE1D11410C00FCD03D /* NSString+AutoSize.m in Sources */,
+				A396E2BE1D11486900FCD03D /* UIView+Toast.m in Sources */,
+				A396E2D11D12767900FCD03D /* NSArray+ELNetworkingMethods.m in Sources */,
 				A396E2721D11217600FCD03D /* AppDelegate.m in Sources */,
+				A396E2CA1D125A1A00FCD03D /* UIDevice+Identifer.m in Sources */,
 				A396E26F1D11217600FCD03D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,23 +674,33 @@
 		};
 		A396E2981D11217700FCD03D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774DB7E22D9C37D073F96BC5 /* Pods-ElevenBaseFrameWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/ZhuCheng/Desktop/ElevenTools/ElevenBaseFrameWork/ElevenBaseFrameWork/PrefixHeader.pch;
 				INFOPLIST_FILE = ElevenBaseFrameWork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Eleven.ElevenBaseFrameWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		A396E2991D11217700FCD03D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13514061A2E057168988D887 /* Pods-ElevenBaseFrameWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/ZhuCheng/Desktop/ElevenTools/ElevenBaseFrameWork/ElevenBaseFrameWork/PrefixHeader.pch;
 				INFOPLIST_FILE = ElevenBaseFrameWork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Eleven.ElevenBaseFrameWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
@@ -496,6 +769,7 @@
 				A396E2991D11217700FCD03D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A396E29A1D11217700FCD03D /* Build configuration list for PBXNativeTarget "ElevenBaseFrameWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +778,7 @@
 				A396E29C1D11217700FCD03D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A396E29D1D11217700FCD03D /* Build configuration list for PBXNativeTarget "ElevenBaseFrameWorkUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +787,7 @@
 				A396E29F1D11217700FCD03D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

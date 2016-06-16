@@ -1,0 +1,46 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FDFullscreenPopGesture (1.1)
+  - MJRefresh (3.1.0)
+  - SDAutoLayout (1.53)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - UMengAnalytics (4.0.0)
+  - UMengSocial (5.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - FDFullscreenPopGesture
+  - MJRefresh
+  - SDAutoLayout
+  - SDWebImage
+  - UMengAnalytics
+  - UMengSocial
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  SDAutoLayout: ea6e2ae9fbb438aa2feb0c4363dba9297e98638a
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  UMengAnalytics: 3bb802b73e815fa9ec4ef384c2fce8de9e1ec62b
+  UMengSocial: 48b67179c492a8cf7803fbb0438b8f55432e2fc1
+
+PODFILE CHECKSUM: 8c9c32b3dc7c2d6dd31619ee65aaa9c866d5e6ef
+
+COCOAPODS: 1.0.1

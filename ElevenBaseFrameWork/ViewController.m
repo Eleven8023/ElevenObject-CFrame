@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ElevenAPIProxy.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    [[ElevenAPIProxy shareInstance] postRequestWithUrl:@"a=tag_recommend&c=topic&action=sub" paramsDic:nil successBlock:^(NSDictionary *response, ELURLResponseStatus status) {
+        NSLog(@"ress %@", response);
+    } failureBlock:^(__autoreleasing id *response, ELURLResponseStatus status) {
+        
+    }];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
