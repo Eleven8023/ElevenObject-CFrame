@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>color</key>
+	<string>ffffff</string>
+	<key>style</key>
+	<string>UIVisualEffectView</string>
+	<key>height</key>
+	<integer>49</integer>
+	<key>selectIndex</key>
+	<integer>0</integer>
+	<key>tabBarItems</key>
+	<array>
+		<dict>
+			<key>uiviewControllerName</key>
+			<string>HomePagesViewController</string>
+			<key>unselectedIconName</key>
+			<string>HomeUnSelected</string>
+			<key>selectedIconName</key>
+			<string>HomeSelected</string>
+		</dict>
+		<dict>
+			<key>uiviewControllerName</key>
+			<string>FoundViewController</string>
+			<key>unselectedIconName</key>
+			<string>FoundUnSelected</string>
+			<key>selectedIconName</key>
+			<string>FoundSelected</string>
+		</dict>
+		<dict>
+			<key>uiviewControllerName</key>
+			<string>MessageViewController</string>
+			<key>unselectedIconName</key>
+			<string>MessageUnselected</string>
+			<key>selectedIconName</key>
+			<string>MessageSelected</string>
+		</dict>
+		<dict>
+			<key>uiviewControllerName</key>
+			<string>MineViewController</string>
+			<key>unselectedIconName</key>
+			<string>MineUnselected</string>
+			<key>selectedIconName</key>
+			<string>MineSelected</string>
+		</dict>
+	</array>
+</dict>
+</plist>

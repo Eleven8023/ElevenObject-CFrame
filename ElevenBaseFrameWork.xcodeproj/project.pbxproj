@@ -28,6 +28,14 @@
 		A396E2D41D12769800FCD03D /* NSDictionary+ELNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2D31D12769800FCD03D /* NSDictionary+ELNetworkingMethods.m */; };
 		A396E2D71D1278E800FCD03D /* ElevenAPIProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2D61D1278E800FCD03D /* ElevenAPIProxy.m */; };
 		A396E2DA1D1295F600FCD03D /* UIBarButtonItem+ELBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2D91D1295F600FCD03D /* UIBarButtonItem+ELBarButtonItem.m */; };
+		A396E2E01D13979400FCD03D /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2DF1D13979400FCD03D /* TabbarViewController.m */; };
+		A396E2E31D13982C00FCD03D /* TabBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2E21D13982B00FCD03D /* TabBarModel.m */; };
+		A396E2E51D13983C00FCD03D /* TabBar.plist in Resources */ = {isa = PBXBuildFile; fileRef = A396E2E41D13983C00FCD03D /* TabBar.plist */; };
+		A396E2EB1D13AAF300FCD03D /* CustomTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2EA1D13AAF300FCD03D /* CustomTabbarView.m */; };
+		A396E2FE1D13CC6400FCD03D /* HomePagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2FD1D13CC6400FCD03D /* HomePagesViewController.m */; };
+		A396E3011D13CC7B00FCD03D /* FoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E3001D13CC7B00FCD03D /* FoundViewController.m */; };
+		A396E3041D13CC9100FCD03D /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E3031D13CC9100FCD03D /* MessageViewController.m */; };
+		A396E3071D13CCC900FCD03D /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E3061D13CCC900FCD03D /* MineViewController.m */; };
 		AA1FCE3BB57EEBA800314BEC /* Pods_ElevenBaseFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433D529BBF2222B5B457D695 /* Pods_ElevenBaseFrameWork.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +103,21 @@
 		A396E2D61D1278E800FCD03D /* ElevenAPIProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElevenAPIProxy.m; sourceTree = "<group>"; };
 		A396E2D81D1295F600FCD03D /* UIBarButtonItem+ELBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ELBarButtonItem.h"; sourceTree = "<group>"; };
 		A396E2D91D1295F600FCD03D /* UIBarButtonItem+ELBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ELBarButtonItem.m"; sourceTree = "<group>"; };
+		A396E2DE1D13979400FCD03D /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		A396E2DF1D13979400FCD03D /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
+		A396E2E11D13982B00FCD03D /* TabBarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarModel.h; sourceTree = "<group>"; };
+		A396E2E21D13982B00FCD03D /* TabBarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarModel.m; sourceTree = "<group>"; };
+		A396E2E41D13983C00FCD03D /* TabBar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TabBar.plist; sourceTree = "<group>"; };
+		A396E2E91D13AAF300FCD03D /* CustomTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabbarView.h; sourceTree = "<group>"; };
+		A396E2EA1D13AAF300FCD03D /* CustomTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabbarView.m; sourceTree = "<group>"; };
+		A396E2FC1D13CC6400FCD03D /* HomePagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePagesViewController.h; sourceTree = "<group>"; };
+		A396E2FD1D13CC6400FCD03D /* HomePagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePagesViewController.m; sourceTree = "<group>"; };
+		A396E2FF1D13CC7B00FCD03D /* FoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundViewController.h; sourceTree = "<group>"; };
+		A396E3001D13CC7B00FCD03D /* FoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundViewController.m; sourceTree = "<group>"; };
+		A396E3021D13CC9100FCD03D /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		A396E3031D13CC9100FCD03D /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		A396E3051D13CCC900FCD03D /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		A396E3061D13CCC900FCD03D /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +306,13 @@
 		A396E2A61D1138FF00FCD03D /* MainTabbar */ = {
 			isa = PBXGroup;
 			children = (
+				A396E2DE1D13979400FCD03D /* TabbarViewController.h */,
+				A396E2DF1D13979400FCD03D /* TabbarViewController.m */,
+				A396E2E91D13AAF300FCD03D /* CustomTabbarView.h */,
+				A396E2EA1D13AAF300FCD03D /* CustomTabbarView.m */,
+				A396E2E11D13982B00FCD03D /* TabBarModel.h */,
+				A396E2E21D13982B00FCD03D /* TabBarModel.m */,
+				A396E2E41D13983C00FCD03D /* TabBar.plist */,
 			);
 			name = MainTabbar;
 			path = ElevenBaseFrameWork/MainTabbar;
@@ -300,6 +330,10 @@
 		A396E2A81D1138FF00FCD03D /* Section */ = {
 			isa = PBXGroup;
 			children = (
+				A396E2EC1D13CC3B00FCD03D /* FoundPage */,
+				A396E2F01D13CC3B00FCD03D /* HomePage */,
+				A396E2F41D13CC3B00FCD03D /* MessagePage */,
+				A396E2F81D13CC3B00FCD03D /* MinePage */,
 			);
 			name = Section;
 			path = ElevenBaseFrameWork/Section;
@@ -329,6 +363,138 @@
 			);
 			name = Vender;
 			path = ElevenBaseFrameWork/Vender;
+			sourceTree = "<group>";
+		};
+		A396E2EC1D13CC3B00FCD03D /* FoundPage */ = {
+			isa = PBXGroup;
+			children = (
+				A396E2ED1D13CC3B00FCD03D /* FoundModels */,
+				A396E2EE1D13CC3B00FCD03D /* FoundViewControlers */,
+				A396E2EF1D13CC3B00FCD03D /* FoundViews */,
+			);
+			path = FoundPage;
+			sourceTree = "<group>";
+		};
+		A396E2ED1D13CC3B00FCD03D /* FoundModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FoundModels;
+			sourceTree = "<group>";
+		};
+		A396E2EE1D13CC3B00FCD03D /* FoundViewControlers */ = {
+			isa = PBXGroup;
+			children = (
+				A396E2FF1D13CC7B00FCD03D /* FoundViewController.h */,
+				A396E3001D13CC7B00FCD03D /* FoundViewController.m */,
+			);
+			path = FoundViewControlers;
+			sourceTree = "<group>";
+		};
+		A396E2EF1D13CC3B00FCD03D /* FoundViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FoundViews;
+			sourceTree = "<group>";
+		};
+		A396E2F01D13CC3B00FCD03D /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				A396E2F11D13CC3B00FCD03D /* HomePageControllers */,
+				A396E2F21D13CC3B00FCD03D /* HomePageModels */,
+				A396E2F31D13CC3B00FCD03D /* HomePageViews */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		A396E2F11D13CC3B00FCD03D /* HomePageControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A396E2FC1D13CC6400FCD03D /* HomePagesViewController.h */,
+				A396E2FD1D13CC6400FCD03D /* HomePagesViewController.m */,
+			);
+			path = HomePageControllers;
+			sourceTree = "<group>";
+		};
+		A396E2F21D13CC3B00FCD03D /* HomePageModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomePageModels;
+			sourceTree = "<group>";
+		};
+		A396E2F31D13CC3B00FCD03D /* HomePageViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomePageViews;
+			sourceTree = "<group>";
+		};
+		A396E2F41D13CC3B00FCD03D /* MessagePage */ = {
+			isa = PBXGroup;
+			children = (
+				A396E2F51D13CC3B00FCD03D /* MessageModel */,
+				A396E2F61D13CC3B00FCD03D /* MessageViewControllers */,
+				A396E2F71D13CC3B00FCD03D /* MessageViews */,
+			);
+			path = MessagePage;
+			sourceTree = "<group>";
+		};
+		A396E2F51D13CC3B00FCD03D /* MessageModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MessageModel;
+			sourceTree = "<group>";
+		};
+		A396E2F61D13CC3B00FCD03D /* MessageViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A396E3021D13CC9100FCD03D /* MessageViewController.h */,
+				A396E3031D13CC9100FCD03D /* MessageViewController.m */,
+			);
+			path = MessageViewControllers;
+			sourceTree = "<group>";
+		};
+		A396E2F71D13CC3B00FCD03D /* MessageViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MessageViews;
+			sourceTree = "<group>";
+		};
+		A396E2F81D13CC3B00FCD03D /* MinePage */ = {
+			isa = PBXGroup;
+			children = (
+				A396E2F91D13CC3B00FCD03D /* MineModels */,
+				A396E2FA1D13CC3B00FCD03D /* MineViewControllers */,
+				A396E2FB1D13CC3B00FCD03D /* MineViews */,
+			);
+			path = MinePage;
+			sourceTree = "<group>";
+		};
+		A396E2F91D13CC3B00FCD03D /* MineModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MineModels;
+			sourceTree = "<group>";
+		};
+		A396E2FA1D13CC3B00FCD03D /* MineViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A396E3051D13CCC900FCD03D /* MineViewController.h */,
+				A396E3061D13CCC900FCD03D /* MineViewController.m */,
+			);
+			path = MineViewControllers;
+			sourceTree = "<group>";
+		};
+		A396E2FB1D13CC3B00FCD03D /* MineViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MineViews;
 			sourceTree = "<group>";
 		};
 		C79F259E7DA7363AE40E32AE /* Frameworks */ = {
@@ -445,6 +611,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A396E2E51D13983C00FCD03D /* TabBar.plist in Resources */,
 				A396E27D1D11217600FCD03D /* LaunchScreen.storyboard in Resources */,
 				A396E2B81D11466C00FCD03D /* loading.gif in Resources */,
 				A396E27A1D11217600FCD03D /* Assets.xcassets in Resources */,
@@ -526,16 +693,23 @@
 				A396E2C41D11595A00FCD03D /* UIImage+Size.m in Sources */,
 				A396E2CD1D125A5700FCD03D /* NSString+SFNetworking.m in Sources */,
 				A396E2B41D11439700FCD03D /* UIImage+GIF.m in Sources */,
+				A396E3071D13CCC900FCD03D /* MineViewController.m in Sources */,
 				A396E2D41D12769800FCD03D /* NSDictionary+ELNetworkingMethods.m in Sources */,
+				A396E3041D13CC9100FCD03D /* MessageViewController.m in Sources */,
 				A396E2B11D1141DD00FCD03D /* UIColor+TranslateColor.m in Sources */,
 				A396E2C71D124E5D00FCD03D /* ElevenAppContext.m in Sources */,
 				A396E2751D11217600FCD03D /* ViewController.m in Sources */,
 				A396E2AE1D11410C00FCD03D /* NSString+AutoSize.m in Sources */,
 				A396E2BE1D11486900FCD03D /* UIView+Toast.m in Sources */,
+				A396E2FE1D13CC6400FCD03D /* HomePagesViewController.m in Sources */,
+				A396E2EB1D13AAF300FCD03D /* CustomTabbarView.m in Sources */,
 				A396E2D11D12767900FCD03D /* NSArray+ELNetworkingMethods.m in Sources */,
+				A396E2E31D13982C00FCD03D /* TabBarModel.m in Sources */,
+				A396E2E01D13979400FCD03D /* TabbarViewController.m in Sources */,
 				A396E2721D11217600FCD03D /* AppDelegate.m in Sources */,
 				A396E2CA1D125A1A00FCD03D /* UIDevice+Identifer.m in Sources */,
 				A396E26F1D11217600FCD03D /* main.m in Sources */,
+				A396E3011D13CC7B00FCD03D /* FoundViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
