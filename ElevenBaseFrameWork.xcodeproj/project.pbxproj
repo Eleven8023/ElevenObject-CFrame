@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31513391D1B809400662E90 /* UIImageView+XHWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A31513361D1B809400662E90 /* UIImageView+XHWebCache.m */; };
+		A315133A1D1B809400662E90 /* XHLaunchAd.m in Sources */ = {isa = PBXBuildFile; fileRef = A31513381D1B809400662E90 /* XHLaunchAd.m */; };
 		A396E26F1D11217600FCD03D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E26E1D11217600FCD03D /* main.m */; };
 		A396E2721D11217600FCD03D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2711D11217600FCD03D /* AppDelegate.m */; };
 		A396E2751D11217600FCD03D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E2741D11217600FCD03D /* ViewController.m */; };
@@ -36,6 +38,10 @@
 		A396E3011D13CC7B00FCD03D /* FoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E3001D13CC7B00FCD03D /* FoundViewController.m */; };
 		A396E3041D13CC9100FCD03D /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E3031D13CC9100FCD03D /* MessageViewController.m */; };
 		A396E3071D13CCC900FCD03D /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E3061D13CCC900FCD03D /* MineViewController.m */; };
+		A396E30A1D17980500FCD03D /* UserInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E3091D17980500FCD03D /* UserInformation.m */; };
+		A396E30E1D190F5E00FCD03D /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E30D1D190F5E00FCD03D /* GuideViewController.m */; };
+		A396E3111D190FCF00FCD03D /* GuideCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A396E3101D190FCF00FCD03D /* GuideCollectionViewCell.m */; };
+		A396E3131D1918F200FCD03D /* Guide.plist in Resources */ = {isa = PBXBuildFile; fileRef = A396E3121D1918F200FCD03D /* Guide.plist */; };
 		AA1FCE3BB57EEBA800314BEC /* Pods_ElevenBaseFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433D529BBF2222B5B457D695 /* Pods_ElevenBaseFrameWork.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +66,10 @@
 		13514061A2E057168988D887 /* Pods-ElevenBaseFrameWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevenBaseFrameWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElevenBaseFrameWork/Pods-ElevenBaseFrameWork.release.xcconfig"; sourceTree = "<group>"; };
 		433D529BBF2222B5B457D695 /* Pods_ElevenBaseFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElevenBaseFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		774DB7E22D9C37D073F96BC5 /* Pods-ElevenBaseFrameWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevenBaseFrameWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElevenBaseFrameWork/Pods-ElevenBaseFrameWork.debug.xcconfig"; sourceTree = "<group>"; };
+		A31513351D1B809400662E90 /* UIImageView+XHWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+XHWebCache.h"; sourceTree = "<group>"; };
+		A31513361D1B809400662E90 /* UIImageView+XHWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+XHWebCache.m"; sourceTree = "<group>"; };
+		A31513371D1B809400662E90 /* XHLaunchAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAd.h; sourceTree = "<group>"; };
+		A31513381D1B809400662E90 /* XHLaunchAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAd.m; sourceTree = "<group>"; };
 		A396E26A1D11217600FCD03D /* ElevenBaseFrameWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElevenBaseFrameWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A396E26E1D11217600FCD03D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A396E2701D11217600FCD03D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +128,13 @@
 		A396E3031D13CC9100FCD03D /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 		A396E3051D13CCC900FCD03D /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		A396E3061D13CCC900FCD03D /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		A396E3081D17980500FCD03D /* UserInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInformation.h; sourceTree = "<group>"; };
+		A396E3091D17980500FCD03D /* UserInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInformation.m; sourceTree = "<group>"; };
+		A396E30C1D190F5E00FCD03D /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
+		A396E30D1D190F5E00FCD03D /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
+		A396E30F1D190FCF00FCD03D /* GuideCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideCollectionViewCell.h; sourceTree = "<group>"; };
+		A396E3101D190FCF00FCD03D /* GuideCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideCollectionViewCell.m; sourceTree = "<group>"; };
+		A396E3121D1918F200FCD03D /* Guide.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Guide.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +252,15 @@
 		A396E2A01D1138FF00FCD03D /* ADAndGuide */ = {
 			isa = PBXGroup;
 			children = (
+				A396E30C1D190F5E00FCD03D /* GuideViewController.h */,
+				A396E30D1D190F5E00FCD03D /* GuideViewController.m */,
+				A396E30F1D190FCF00FCD03D /* GuideCollectionViewCell.h */,
+				A396E3101D190FCF00FCD03D /* GuideCollectionViewCell.m */,
+				A396E3121D1918F200FCD03D /* Guide.plist */,
+				A31513351D1B809400662E90 /* UIImageView+XHWebCache.h */,
+				A31513361D1B809400662E90 /* UIImageView+XHWebCache.m */,
+				A31513371D1B809400662E90 /* XHLaunchAd.h */,
+				A31513381D1B809400662E90 /* XHLaunchAd.m */,
 			);
 			name = ADAndGuide;
 			path = ElevenBaseFrameWork/ADAndGuide;
@@ -352,6 +378,8 @@
 		A396E2AA1D1138FF00FCD03D /* UserInfo */ = {
 			isa = PBXGroup;
 			children = (
+				A396E3081D17980500FCD03D /* UserInformation.h */,
+				A396E3091D17980500FCD03D /* UserInformation.m */,
 			);
 			name = UserInfo;
 			path = ElevenBaseFrameWork/UserInfo;
@@ -614,6 +642,7 @@
 				A396E2E51D13983C00FCD03D /* TabBar.plist in Resources */,
 				A396E27D1D11217600FCD03D /* LaunchScreen.storyboard in Resources */,
 				A396E2B81D11466C00FCD03D /* loading.gif in Resources */,
+				A396E3131D1918F200FCD03D /* Guide.plist in Resources */,
 				A396E27A1D11217600FCD03D /* Assets.xcassets in Resources */,
 				A396E2781D11217600FCD03D /* Main.storyboard in Resources */,
 			);
@@ -691,13 +720,16 @@
 				A396E2D71D1278E800FCD03D /* ElevenAPIProxy.m in Sources */,
 				A396E2DA1D1295F600FCD03D /* UIBarButtonItem+ELBarButtonItem.m in Sources */,
 				A396E2C41D11595A00FCD03D /* UIImage+Size.m in Sources */,
+				A396E30A1D17980500FCD03D /* UserInformation.m in Sources */,
 				A396E2CD1D125A5700FCD03D /* NSString+SFNetworking.m in Sources */,
+				A396E30E1D190F5E00FCD03D /* GuideViewController.m in Sources */,
 				A396E2B41D11439700FCD03D /* UIImage+GIF.m in Sources */,
 				A396E3071D13CCC900FCD03D /* MineViewController.m in Sources */,
 				A396E2D41D12769800FCD03D /* NSDictionary+ELNetworkingMethods.m in Sources */,
 				A396E3041D13CC9100FCD03D /* MessageViewController.m in Sources */,
 				A396E2B11D1141DD00FCD03D /* UIColor+TranslateColor.m in Sources */,
 				A396E2C71D124E5D00FCD03D /* ElevenAppContext.m in Sources */,
+				A396E3111D190FCF00FCD03D /* GuideCollectionViewCell.m in Sources */,
 				A396E2751D11217600FCD03D /* ViewController.m in Sources */,
 				A396E2AE1D11410C00FCD03D /* NSString+AutoSize.m in Sources */,
 				A396E2BE1D11486900FCD03D /* UIView+Toast.m in Sources */,
@@ -705,10 +737,12 @@
 				A396E2EB1D13AAF300FCD03D /* CustomTabbarView.m in Sources */,
 				A396E2D11D12767900FCD03D /* NSArray+ELNetworkingMethods.m in Sources */,
 				A396E2E31D13982C00FCD03D /* TabBarModel.m in Sources */,
+				A315133A1D1B809400662E90 /* XHLaunchAd.m in Sources */,
 				A396E2E01D13979400FCD03D /* TabbarViewController.m in Sources */,
 				A396E2721D11217600FCD03D /* AppDelegate.m in Sources */,
 				A396E2CA1D125A1A00FCD03D /* UIDevice+Identifer.m in Sources */,
 				A396E26F1D11217600FCD03D /* main.m in Sources */,
+				A31513391D1B809400662E90 /* UIImageView+XHWebCache.m in Sources */,
 				A396E3011D13CC7B00FCD03D /* FoundViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -851,6 +885,7 @@
 			baseConfigurationReference = 774DB7E22D9C37D073F96BC5 /* Pods-ElevenBaseFrameWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/ZhuCheng/Desktop/ElevenTools/ElevenBaseFrameWork/ElevenBaseFrameWork/PrefixHeader.pch;
@@ -867,6 +902,7 @@
 			baseConfigurationReference = 13514061A2E057168988D887 /* Pods-ElevenBaseFrameWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/ZhuCheng/Desktop/ElevenTools/ElevenBaseFrameWork/ElevenBaseFrameWork/PrefixHeader.pch;

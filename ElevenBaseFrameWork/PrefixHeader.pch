@@ -18,6 +18,11 @@
 #define UISCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
 #define UISCREEN_BOUNCE ([UIScreen mainScreen].bounds)
 
+#define JUMPMAINTABBARPAGE @""
+
+#define APP_DOWNLOAD_URL @"https://itunes.apple.com/cn/app/ban-ge-yi-sheng-zui-zhuan/id949812115?mt=8"
+
+
 #define IOS8 [[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.

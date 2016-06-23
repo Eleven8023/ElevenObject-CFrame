@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TabbarViewController.h"
-
+#import "XHLaunchAd.h"
 @interface AppDelegate ()
 
 @end
@@ -18,12 +18,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    TabbarViewController *tabVC = [[TabbarViewController alloc] init];
-    UINavigationController *naVC = [[UINavigationController alloc] initWithRootViewController:tabVC];
-    self.window.rootViewController = naVC;
-    [self.window makeKeyAndVisible];
+    [self setKeyWindow];
+
     return YES;
+}
+
+- (void)setKeyWindow{
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    NSString *isFirstOpenStr = [[NSUserDefaults standardUserDefaults] objectForKey:@"isFirstOpenApp"];
+    if ([isFirstOpenStr isEqualToString:@"1"]) {
+        TabbarViewController *tabVC = [[TabbarViewController alloc] init];
+        UINavigationController *naVC = [[UINavigationController alloc] initWithRootViewController:tabVC];
+        self.window.rootViewController = naVC;
+    }else{
+        self.window.rootViewController = nil;
+        [[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:@"isFirstOpenApp"];
+    }
+    // 初始化启动页广告
+   XHLaunchAd *launchAd = [[XHLaunchAd alloc] initWithFrame:CGRectMake(0, 0, UISCREEN_WIDTH, UISCREEN_HEIGHT - 150) andDuration:5];
+    // 设置启动页广告图片的url
+    NSString *imgUrlString = @"http://img.taopic.com/uploads/allimg/120906/219077-120Z616330677.jpg";
+    [launchAd imgUrlString:imgUrlString completed:^(UIImage *image, NSURL *url) {
+        
+    }];
+    launchAd.hideSkip = NO;
+    // 广告页点击时间
+    launchAd.clickBlock = ^(){
+        NSString *url = @"https://www.baidu.com";
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+    };
+    [self.window.rootViewController.view addSubview:launchAd];
+    [self.window makeKeyAndVisible];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

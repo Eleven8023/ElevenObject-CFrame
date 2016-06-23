@@ -1,22 +1,21 @@
 //
-//  MineViewController.m
+//  GuideViewController.m
 //  ElevenBaseFrameWork
 //
-//  Created by Eleven on 16/6/17.
+//  Created by Eleven on 16/6/21.
 //  Copyright © 2016年 Eleven. All rights reserved.
 //
 
-#import "MineViewController.h"
+#import "GuideViewController.h"
 
-@interface MineViewController ()
+@interface GuideViewController ()
 
 @end
 
-@implementation MineViewController
+@implementation GuideViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor blueColor];
     // Do any additional setup after loading the view.
 }
 
@@ -24,16 +23,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-#pragma mark -- 给应用打分
-- (void)onMarking:(id)sender{
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:APP_DOWNLOAD_URL]];
-    NSString *strLocalVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
-    [[NSUserDefaults standardUserDefaults] setObject:@"score" forKey:[NSString stringWithFormat:@"score%@", strLocalVersion]];
-}
-
-
-
 
 /*
 #pragma mark - Navigation
